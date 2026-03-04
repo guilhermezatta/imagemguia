@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "categorias": {
+    "canions": [
+      {
+        "id": "canion_itaimbezinho",
+        "nome": "Cânion Itaimbezinho",
+        "descricao": "Trilhas do Vértice e Cotovelo com vistas panorâmicas.",
+        "tags": [
+          "Parque",
+          "Trilha",
+          "Mirante",
+          "Oi",
+          "tchau",
+          "hello",
+          "mamãe",
+          "falei"
+        ],
+        "whatsapp": "",
+        "instagram": "",
+        "lat": -29.1718,
+        "lon": -50.0793,
+        "foto": "canions.jpg",
+        "subcategoria": "Cânions",
+        "manha": "08h às 12h",
+        "tarde": "13h às 17h",
+        "horario": "Manhã: 08h às 12h | Tarde: 13h às 17h",
+        "preco": "Entrada: R$ 94 (inteira) / R$ 47 (meia)",
+        "faq_url": "https://canionsverdes.urbiapass.com.br/perguntas-frequentes",
+        "_dyn": true
+      },
+      {
+        "id": "canions_1772563209626",
+        "nome": "teste",
+        "descricao": "",
+        "tags": [],
+        "whatsapp": "",
+        "instagram": "",
+        "foto": "imagemausente.png",
+        "manha": "08h às 12h",
+        "horario": "Manhã: 08h às 12h",
+        "preco": "20",
+        "_dyn": true
+      }
+    ],
+    "cachoeiras": [
+      {
+        "id": "cachoeira_venancio",
+        "nome": "Cascata dos Venâncio",
+        "preco": "R$ 20",
+        "manha": "08h às 12h",
+        "tarde": "13h às 17h",
+        "noite": "Fechado",
+        "descricao": "Série de quedas com poços para banho.",
+        "tags": [
+          "Poço",
+          "Foto"
+        ],
+        "lat": -29.07,
+        "lon": -50.13,
+        "foto": "cachoeiras.jpg"
+      }
+    ],
+    "trilhas": [
+      {
+        "id": "trilha_fortaleza",
+        "nome": "Trilha Fortaleza",
+        "preco": "Entrada: R$ 30",
+        "manha": "08h às 12h",
+        "tarde": "13h às 16h",
+        "noite": "Fechado",
+        "descricao": "Mirantes panorâmicos e Pedra do Segredo.",
+        "tags": [
+          "Mirante",
+          "Nascer do sol"
+        ],
+        "lat": -29.0992,
+        "lon": -50.0864,
+        "foto": "trilhas.jpg"
+      }
+    ],
+    "camping": [
+      {
+        "id": "camping_serra",
+        "nome": "Camping Serra",
+        "preco": "R$ 50",
+        "manha": "08h às 12h",
+        "tarde": "13h às 20h",
+        "noite": "24h",
+        "descricao": "Área de camping perto dos cânions.",
+        "tags": [
+          "Banho",
+          "Churrasqueira"
+        ],
+        "whatsapp": "+5551991111111",
+        "lat": -29.12,
+        "lon": -50.09,
+        "foto": "camping.jpg"
+      }
+    ],
+    "hospedagens": [
+      {
+        "id": "pousada_araucarias",
+        "nome": "Pousada Araucárias",
+        "preco": "R$ 180 - R$ 320",
+        "descricao": "Suítes com café da manhã e lareira.",
+        "tags": [
+          "Café inclusivo",
+          "Lareira"
+        ],
+        "checkin": "14h",
+        "checkout": "11h",
+        "vagas": 12,
+        "whatsapp": "+5551992222222",
+        "instagram": "pousadaaraucarias",
+        "tripadvisor": "Hotel_Review-g780034-d123456",
+        "booking": "https://www.booking.com/hotel/br/pousada-araucarias",
+        "airbnb": "https://www.airbnb.com/rooms/54204398",
+        "lat": -29.0367,
+        "lon": -50.068,
+        "foto": "pousadas.jpg"
+      }
+    ],
+    "guias": [
+      {
+        "id": "guia_serra",
+        "nome": "Guia Serra Cânions",
+        "descricao": "Passeios 4x4 e trilhas guiadas.",
+        "veiculo": "4x4 Defender",
+        "tags": [
+          "Privativo",
+          "Trilhas"
+        ],
+        "lat": -29.17,
+        "lon": -50.08,
+        "foto": "guias.jpg"
+      }
+    ],
+    "gastronomia": [
+      {
+        "id": "rest_tradicao",
+        "nome": "Restaurante Tradição",
+        "preco": "R$ 45 buffet",
+        "manha": "09h às 11h",
+        "tarde": "11h às 15h",
+        "noite": "19h às 23h",
+        "descricao": "Buffet campeiro e parrilla.",
+        "tags": [
+          "Buffet",
+          "Churrasco"
+        ],
+        "whatsapp": "+5551993333333",
+        "instagram": "tradicaogaucha",
+        "lat": -29.036,
+        "lon": -50.068,
+        "foto": "restaurantes.jpg"
+      }
+    ],
+    "mercados": [
+      {
+        "id": "super_cambara",
+        "nome": "Super Cambará",
+        "descricao": "Completo, com açougue e hortifruti.",
+        "tags": [
+          "Açougue",
+          "Hortifruti"
+        ],
+        "whatsapp": "+5551994444444",
+        "instagram": "supercambara",
+        "lat": -29.033,
+        "lon": -50.065,
+        "foto": "mercados.jpg",
+        "subcategoria": "Mercados",
+        "manha": "08h às 12h",
+        "tarde": "13h às 20h",
+        "horario": "Manhã: 08h às 12h | Tarde: 13h às 20h",
+        "_dyn": true
+      },
+      {
+        "id": "mercados_1772240439443",
+        "nome": "2 IRMÃOS",
+        "descricao": "",
+        "tags": [],
+        "whatsapp": "",
+        "instagram": "",
+        "foto": "imagemausente.png",
+        "subcategoria": "Padarias",
+        "_dyn": true
+      }
+    ],
+    "farmacias": [
+      {
+        "id": "farmacia_central",
+        "nome": "Farmácia Central",
+        "manha": "08h às 12h",
+        "tarde": "13h às 22h",
+        "descricao": "Dermocosméticos e plantão.",
+        "tags": [
+          "Plantão",
+          "Entrega"
+        ],
+        "whatsapp": "+5551995555555",
+        "instagram": "farmaciacentral",
+        "lat": -29.034,
+        "lon": -50.068,
+        "foto": "farmacias.jpg"
+      }
+    ],
+    "mecanicas": [
+      {
+        "id": "oficina_trilha",
+        "nome": "Oficina Trilha",
+        "manha": "08h às 12h",
+        "tarde": "13h às 18h",
+        "descricao": "Suspensão 4x4, pneus e alinhamento.",
+        "tags": [
+          "4x4",
+          "Pneus"
+        ],
+        "whatsapp": "+5551996666666",
+        "lat": -29.037,
+        "lon": -50.069,
+        "foto": "mecanicas.jpg"
+      }
+    ],
+    "postos": [
+      {
+        "id": "posto_serrano",
+        "nome": "Posto Serrano",
+        "manha": "00h às 12h",
+        "tarde": "12h às 23h",
+        "descricao": "Gasolina, diesel S10, conveniência.",
+        "tags": [
+          "24h",
+          "Conveniência"
+        ],
+        "whatsapp": "+5551997777777",
+        "lat": -29.032,
+        "lon": -50.07,
+        "foto": "postos.jpg"
+      }
+    ],
+    "servicos": [
+      {
+        "id": "serv_barbearia",
+        "nome": "Barbearia Cambará",
+        "descricao": "Cortes e barba.",
+        "tags": [
+          "Barba",
+          "Corte"
+        ],
+        "whatsapp": "+5551998888888",
+        "instagram": "barbeariacambara",
+        "lat": -29.035,
+        "lon": -50.066,
+        "foto": "servicos.jpg",
+        "subcategoria": "Barber",
+        "manha": "09h às 12h",
+        "tarde": "13h às 19h",
+        "horario": "Manhã: 09h às 12h | Tarde: 13h às 19h",
+        "vagas": 2,
+        "preco": "R$ 35 corte",
+        "_dyn": true
+      }
+    ],
+    "inicio_banners": [
+      {
+        "src": "Semana Farroupilha I.jpg"
+      },
+      {
+        "src": "Festa em Honra a São Sebastião de Nossa Senhora da Aparecida I.jpg"
+      },
+      {
+        "src": "trilhas.jpg"
+      },
+      {
+        "src": "farmacias.jpg"
+      }
+    ],
+    "galeria_hero": [
+      "Balonismo em Camba.jpg",
+      "Balonismo em Camba.jpg",
+      "Balonismo em Camba.jpg"
+    ],
+    "galeria_linhas": [
+      {
+        "titulo": "Amanheceres",
+        "fotos": [
+          "Amanhecer no Hotel Parador.jpg",
+          "Amanhecer no Itaimbezinho.jpg",
+          "Um Belo Amanhecer.jpg",
+          "Serra Geral.jpg",
+          "farmacias.jpg"
+        ]
+      },
+      {
+        "titulo": "Trilhas e Bikes",
+        "fotos": [
+          "Passeios de Bike.jpg",
+          "Serra Geral.jpg",
+          "Lajeado das Margaridas.jpg"
+        ]
+      },
+      {
+        "titulo": "Cânions",
+        "fotos": [
+          "Paredão Cânion Fortaleza.jpg",
+          "Balonismo em Camba.jpg",
+          "Balonismo em Camba.jpg"
+        ]
+      },
+      {
+        "titulo": "Relax",
+        "fotos": [
+          "Saunas Exclusivas.jpg",
+          "Um Cantinho Especial.jpg",
+          "Experiência Singular.jpg"
+        ]
+      },
+      {
+        "titulo": "Noite",
+        "fotos": [
+          "Anoiteceu em Cambará.jpg",
+          "shows.jpg",
+          "Jipeiros.jpg"
+        ]
+      },
+      {
+        "titulo": "teste",
+        "fotos": [
+          "Jipeiros.jpg"
+        ]
+      }
+    ]
+  },
+  "eventos": [
+    {
+      "id": "evento_1772259954701",
+      "titulo": "Semana Farroupilha",
+      "data": "12/12/2026"
+    },
+    {
+      "id": "evento_1772556951203",
+      "titulo": "Festa do Mel",
+      "data": "01/09/2026"
+    }
+  ],
+  "referencias_links": [
+    {
+      "id": "referencia_1772343691995",
+      "titulo": "Aparados Serra Geral",
+      "url": "https://www.aparadosdaserraturismo.com.br/regiao/"
+    },
+    {
+      "id": "referencia_1772343575994",
+      "titulo": "Cânions Verdes",
+      "url": "https://canionsverdes.urbiapass.com.br/"
+    },
+    {
+      "id": "referencia_1772343628036",
+      "titulo": "Prefeitura",
+      "url": "https://www.cambaradosul.rs.gov.br/pt"
+    }
+  ]
+}
