@@ -1,11 +1,11 @@
 {
-  "version": 17,
-  "updated_at": "2026-03-11T19:34:29Z",
+  "version": 18,
+  "updated_at": "2026-03-11T21:30:56Z",
   "categorias": {
     "canions": [
       {
         "id": "canions_1773256924195",
-        "nome": "Cânion Itaimbezinho",
+        "nome": "Canion Itaimbezinho",
         "descricao": "",
         "tags": [
           "No Pets"
@@ -13,11 +13,12 @@
         "whatsapp": "",
         "instagram": "",
         "foto": "canions.jpg",
-        "manha": "08h às 12h",
-        "tarde": "12h às 16h",
-        "horario": "ManhÃ£: 08h às 12h | Tarde: 12h às 16h",
+        "manha": "08h as 12h",
+        "tarde": "12h as 16h",
+        "horario": "Manha: 08h as 12h | Tarde: 12h as 16h | Noite: Fechado",
         "preco": "R$60 - R$110",
-        "_dyn": true
+        "_dyn": true,
+        "noite": "Fechado"
       }
     ],
     "cachoeiras": [],
@@ -97,7 +98,7 @@
       "via_id": "rs-427-aparados",
       "via": "RS-427 (Aparados)",
       "status": "obras",
-      "observacao": "Pavimentação",
+      "observacao": "Pavimentacao",
       "atualizado_em": "11/03/2026 16:27"
     }
   ],
