@@ -1,21 +1,18 @@
 {
-  "version": 26,
-  "updated_at": "2026-03-11T22:01:41Z",
+  "version": 27,
   "categorias": {
     "canions": [
       {
         "id": "canions_1773256924195",
         "nome": "Canion Itaimbezinho",
         "descricao": "",
-        "tags": [
-          "No Pets"
-        ],
+        "tags": [],
         "whatsapp": "",
         "instagram": "",
         "foto": "canions.jpg",
         "manha": "08h as 12h",
         "tarde": "12h as 16h",
-        "horario": "Manha: 08h as 12h | Tarde: 12h as 16h",
+        "horario": "Manha: 08h as 12h | Tarde: 12h as 16h | Noite: Fechado",
         "preco": "R$60 - R$110",
         "_dyn": true,
         "noite": "Fechado"
