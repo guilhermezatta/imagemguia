@@ -1,8 +1,25 @@
 {
-  "version": 2,
-  "updated_at": "2026-03-11T02:54:10Z",
+  "version": 3,
+  "updated_at": "2026-03-11T19:22:04Z",
   "categorias": {
-    "canions": [],
+    "canions": [
+      {
+        "id": "canions_1773256924195",
+        "nome": "Cânion Itaimbezinho",
+        "descricao": "",
+        "tags": [
+          "No Pets"
+        ],
+        "whatsapp": "",
+        "instagram": "",
+        "foto": "canion.jpg",
+        "manha": "08h às 12h",
+        "tarde": "12h às 16h",
+        "horario": "ManhÃ£: 08h às 12h | Tarde: 12h às 16h",
+        "preco": "R$60 - R$110",
+        "_dyn": true
+      }
+    ],
     "cachoeiras": [],
     "trilhas": [],
     "camping": [],
@@ -55,5 +72,9 @@
       "tags": []
     }
   ],
-  "vias_condicoes": []
+  "vias_condicoes": [],
+  "app": {
+    "status": "ativo",
+    "mensagem": "Sistema em manutencao. Tente novamente mais tarde."
+  }
 }
