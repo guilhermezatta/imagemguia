@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updated_at": "2026-03-11T19:26:39Z",
+  "version": 11,
+  "updated_at": "2026-03-11T19:27:17Z",
   "categorias": {
     "canions": [
       {
@@ -79,11 +79,11 @@
   "vias_condicoes": [
     {
       "id": "condicao_rs-453-rota-do-sol",
-      "via_id": "sc-290-serra-do-faxinal",
-      "via": "SC-290 / Serra do Faxinal",
+      "via_id": "rs-453-rota-do-sol",
+      "via": "RS-453 Rota do Sol",
       "status": "atencao",
       "observacao": "Muita Neblina",
-      "atualizado_em": "11/03/2026 16:26"
+      "atualizado_em": "11/03/2026 16:27"
     }
   ],
   "app": {
