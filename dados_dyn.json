@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated_at": "2026-03-11T19:23:31Z",
+  "version": 5,
+  "updated_at": "2026-03-11T19:24:19Z",
   "categorias": {
     "canions": [
       {
@@ -42,11 +42,6 @@
       "tags": []
     },
     {
-      "id": "rs-020-leste-litoral",
-      "nome": "RS-020 Leste (BR-101 / Litoral)",
-      "tags": []
-    },
-    {
       "id": "rs-453-rota-do-sol",
       "nome": "RS-453 Rota do Sol",
       "tags": []
@@ -70,6 +65,13 @@
       "id": "rs-020-norte-ausentes",
       "nome": "RS-020 Norte (Sao Jose dos Ausentes)",
       "tags": []
+    },
+    {
+      "id": "rs-020-leste-litoral",
+      "nome": "RS-020 Leste (BR-101 / Litoral)",
+      "tags": [
+        "asfalto"
+      ]
     }
   ],
   "vias_condicoes": [],
