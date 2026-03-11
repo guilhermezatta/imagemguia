@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated_at": "2026-03-11T19:22:04Z",
+  "version": 4,
+  "updated_at": "2026-03-11T19:23:31Z",
   "categorias": {
     "canions": [
       {
@@ -76,5 +76,12 @@
   "app": {
     "status": "ativo",
     "mensagem": "Sistema em manutencao. Tente novamente mais tarde."
-  }
+  },
+  "eventos": [
+    {
+      "id": "evento_1773257011232",
+      "titulo": "Semana Farroupilha",
+      "data": "20/09/2026"
+    }
+  ]
 }
