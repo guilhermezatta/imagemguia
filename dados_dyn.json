@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "categorias": {
     "canions": [
       {
@@ -645,6 +645,11 @@
       "id": "evento_1773257011232",
       "titulo": "Semana Farroupilha",
       "data": "20/09/2026"
+    },
+    {
+      "id": "evento_1773288988934",
+      "titulo": "Festa do Mel",
+      "data": "21/05/2026"
     }
   ],
   "referencias_links": [
