@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "categorias": {
     "canions": [
       {
@@ -645,6 +645,13 @@
       "id": "evento_1773257011232",
       "titulo": "Semana Farroupilha",
       "data": "20/09/2026"
+    }
+  ],
+  "referencias_links": [
+    {
+      "id": "referencia_1773288937370",
+      "titulo": "Cânions Verdes",
+      "url": "https://canionsverdes.urbiapass.com.br/"
     }
   ]
 }
