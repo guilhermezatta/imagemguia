@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "categorias": {
     "canions": [
       {
@@ -489,14 +489,7 @@
         "_dyn": true
       }
     ],
-    "inicio_banners": [
-      {
-        "src": "foto1"
-      },
-      {
-        "src": "foto2"
-      }
-    ],
+    "inicio_banners": [],
     "galeria_hero": [],
     "galeria_linhas": [
       {
