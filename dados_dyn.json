@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 32,
   "categorias": {
     "canions": [
       {
@@ -645,7 +645,7 @@
     }
   ],
   "app": {
-    "status": "inativo",
+    "status": "ativo",
     "mensagem": "Sistema em manutencao. Tente novamente mais tarde."
   },
   "eventos": [
