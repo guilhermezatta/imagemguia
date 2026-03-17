@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "categorias": {
     "canions": [
       {
@@ -659,6 +659,11 @@
       "id": "evento_1773288988934",
       "titulo": "Festa do Mel",
       "data": "21/05/2026"
+    },
+    {
+      "id": "evento_1773743205591",
+      "titulo": "Agrotech",
+      "data": ""
     }
   ],
   "referencias_links": [
