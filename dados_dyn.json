@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "categorias": {
     "canions": [
       {
@@ -17,7 +17,7 @@
         "tarde": "13h as 17h",
         "noite": "Fechado",
         "horario": "Manha: 08h as 12h | Tarde: 13h as 17h | Noite: Fechado",
-        "preco": "R$ 80",
+        "preco": "R$ 333",
         "lat": -29.1735,
         "lon": -50.1147,
         "maps": "https://www.google.com/maps/search/?api=1&query=Canion Itaimbezinho Cambara do Sul",
