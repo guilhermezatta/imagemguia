@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categorias": {
     "canions": [
       {
@@ -18,7 +18,8 @@
         "checkout": "11h",
         "tags": [
           "mirante",
-          "natureza"
+          "natureza",
+          "testedogui"
         ],
         "lat": -29.1735,
         "lon": -50.1147,
