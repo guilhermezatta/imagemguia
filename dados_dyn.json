@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "categorias": {
     "canions": [
       {
@@ -674,6 +674,11 @@
       "id": "referencia_1773288937370",
       "titulo": "Cânions Verdes",
       "url": "https://canionsverdes.urbiapass.com.br/"
+    },
+    {
+      "id": "referencia_1773866167338",
+      "titulo": "Canions do Sul",
+      "url": "https://canionsdosul.org/"
     }
   ]
 }
