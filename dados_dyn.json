@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "categorias": {
     "canions": [
       {
@@ -33,11 +33,12 @@
         "foto": "canions.jpg",
         "preco": "R$ 70",
         "whatsapp": "+5551999000102",
-        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "instagram": "https://www.instagram.com/terradoscanions_?igsh=MWVjbHlhamN0MjNjMg==",
         "manha": "08h as 11h30",
         "tarde": "13h as 16h30",
         "noite": "Fechado",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Canion Fortaleza Cambara do Sul",
+        "checkin": "14h",
+        "checkout": "11h",
         "tags": [
           "paisagem",
           "trilha leve"
