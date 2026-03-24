@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 17,
   "categorias": {
     "canions": [
       {
@@ -16,13 +16,21 @@
         "noite": "Fechado",
         "checkin": "14h",
         "checkout": "11h",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Canion+Itaimbezinho+Cambara+do+Sul",
         "tags": [
           "mirante",
           "natureza",
           "testedogui"
         ],
-        "lat": -29.1735,
-        "lon": -50.1147,
+        "lat": -29.171053,
+        "lon": -50.0876854,
+        "roteiro": {
+          "duracao_visita_min": 180,
+          "valor_entrada": 82.0,
+          "tem_estrada_chao": false,
+          "aceita_pet": false,
+          "exige_guia": false
+        },
         "horario": "Manhã: 08h as 12h | Tarde: 13h as 17h | Noite: Fechado"
       },
       {
@@ -39,12 +47,21 @@
         "noite": "Fechado",
         "checkin": "14h",
         "checkout": "11h",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Canion+Fortaleza+Cambara+do+Sul",
         "tags": [
           "paisagem",
           "trilha leve"
         ],
-        "lat": -29.1571,
-        "lon": -50.1032,
+        "lat": -29.0625321,
+        "lon": -49.9570611,
+        "roteiro": {
+          "duracao_visita_min": 210,
+          "valor_entrada": 70.0,
+          "tem_estrada_chao": true,
+          "estrada_chao_km": 12.0,
+          "aceita_pet": false,
+          "exige_guia": false
+        },
         "horario": "Manhã: 08h as 11h30 | Tarde: 13h as 16h30 | Noite: Fechado"
       }
     ],
@@ -68,6 +85,14 @@
         ],
         "lat": -29.0216,
         "lon": -50.1951,
+        "roteiro": {
+          "duracao_visita_min": 150,
+          "valor_entrada": 25.0,
+          "tem_estrada_chao": true,
+          "estrada_chao_km": 7.0,
+          "aceita_pet": true,
+          "exige_guia": false
+        },
         "horario": "Manhã: 08h as 12h | Tarde: 13h as 18h | Noite: Fechado"
       },
       {
@@ -89,6 +114,14 @@
         ],
         "lat": -29.0408,
         "lon": -50.1387,
+        "roteiro": {
+          "duracao_visita_min": 120,
+          "valor_entrada": 20.0,
+          "tem_estrada_chao": true,
+          "estrada_chao_km": 4.0,
+          "aceita_pet": true,
+          "exige_guia": false
+        },
         "horario": "Manhã: 09h as 12h | Tarde: 13h as 17h | Noite: Fechado"
       }
     ],
@@ -112,6 +145,13 @@
         ],
         "lat": -29.1896,
         "lon": -50.0924,
+        "roteiro": {
+          "duracao_visita_min": 360,
+          "valor_entrada": 120.0,
+          "tem_estrada_chao": false,
+          "aceita_pet": false,
+          "exige_guia": true
+        },
         "horario": "Manhã: 07h as 11h | Tarde: 13h as 16h | Noite: Fechado"
       },
       {
@@ -133,49 +173,121 @@
         ],
         "lat": -29.0221,
         "lon": -50.1475,
+        "roteiro": {
+          "duracao_visita_min": 120,
+          "valor_entrada": 35.0,
+          "tem_estrada_chao": false,
+          "aceita_pet": true,
+          "exige_guia": false
+        },
         "horario": "Manhã: 08h as 12h | Tarde: 13h as 17h | Noite: Fechado"
       }
     ],
-    "guias": [
+    "outros_passeios": [
       {
-        "id": "guias_teste_1",
-        "nome": "Guia Serra Sul",
+        "id": "outros_passeios_teste_1",
+        "nome": "Museu Historico de Cambara",
         "_dyn": true,
-        "descricao": "Atendimento para canions e trilhas com carro proprio.",
-        "foto": "guias.jpg",
-        "preco": "Diaria a partir de R$ 250",
-        "veiculo": "4x4",
-        "whatsapp": "+5551999000401",
+        "descricao": "Visita cultural no centro da cidade para conhecer a historia local e complementar o roteiro.",
+        "foto": "experiencias.png",
+        "preco": "Entrada gratuita",
+        "whatsapp": "+5551999001301",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "manha": "07h as 12h",
-        "tarde": "13h as 19h",
-        "noite": "Plantao por mensagem",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Centro Cambara do Sul",
+        "subcategoria": "Museu",
+        "manha": "09h as 12h",
+        "tarde": "13h30 as 17h30",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Museu Historico Cambara do Sul",
         "tags": [
-          "trilhas",
-          "4x4"
+          "cultura",
+          "familia",
+          "centro"
         ],
-        "horario": "Manhã: 07h as 12h | Tarde: 13h as 19h | Noite: Plantao por mensagem"
+        "lat": -29.0469,
+        "lon": -50.1471,
+        "roteiro": {
+          "duracao_visita_min": 60,
+          "valor_entrada": 0.0,
+          "tem_estrada_chao": false,
+          "aceita_pet": false,
+          "exige_guia": false
+        },
+        "horario": "Manhã: 09h as 12h | Tarde: 13h30 as 17h30 | Noite: Fechado"
       },
       {
-        "id": "guias_teste_2",
-        "nome": "Guia Aparados",
+        "id": "outros_passeios_teste_2",
+        "nome": "Casa do Mel Aparados",
         "_dyn": true,
-        "descricao": "Equipe local para passeios privativos e atendimento bilingue.",
-        "foto": "guias.jpg",
-        "preco": "Passeios a partir de R$ 220",
-        "veiculo": "SUV",
-        "whatsapp": "+5551999000402",
+        "descricao": "Parada para degustacao, compra de produtos locais e visita curta fora do centro.",
+        "foto": "experiencias.png",
+        "preco": "Visita R$ 12",
+        "whatsapp": "+5551999001302",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "manha": "08h as 12h",
-        "tarde": "13h as 18h",
-        "noite": "Sob agendamento",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Praca Sao Jose Cambara do Sul",
+        "subcategoria": "Atracao rural",
+        "manha": "08h30 as 12h",
+        "tarde": "13h30 as 18h",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Casa do Mel Cambara do Sul",
         "tags": [
-          "privativo",
-          "bilingue"
+          "produtos locais",
+          "degustacao",
+          "familia"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h as 18h | Noite: Sob agendamento"
+        "lat": -29.028,
+        "lon": -50.169,
+        "roteiro": {
+          "duracao_visita_min": 45,
+          "valor_entrada": 12.0,
+          "tem_estrada_chao": true,
+          "estrada_chao_km": 2.0,
+          "aceita_pet": true,
+          "exige_guia": false
+        },
+        "horario": "Manhã: 08h30 as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
+      }
+    ],
+    "gastronomia": [
+      {
+        "id": "gastronomia_teste_1",
+        "nome": "Restaurante Fogo de Chao",
+        "_dyn": true,
+        "descricao": "Pratos tipicos para validar a categoria de gastronomia.",
+        "foto": "restaurantes.jpg",
+        "preco": "Pratos a partir de R$ 48",
+        "tripadvisor": "https://www.tripadvisor.com/",
+        "whatsapp": "+5551999000701",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Almoco e jantar",
+        "manha": "Fechado",
+        "tarde": "11h30 as 15h",
+        "noite": "19h as 22h30",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Restaurante Fogo de Chao Cambara do Sul",
+        "tags": [
+          "almoco",
+          "buffet"
+        ],
+        "horario": "Manhã: Fechado | Tarde: 11h30 as 15h | Noite: 19h as 22h30"
+      },
+      {
+        "id": "gastronomia_teste_2",
+        "nome": "Cafe dos Canyons",
+        "_dyn": true,
+        "descricao": "Espaco de teste para cafe colonial e sobremesas.",
+        "foto": "restaurantes.jpg",
+        "preco": "Consumo medio R$ 35",
+        "tripadvisor": "https://www.tripadvisor.com/",
+        "whatsapp": "+5551999000702",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Cafe",
+        "manha": "08h as 11h30",
+        "tarde": "14h as 18h",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Cafe dos Canyons Cambara do Sul",
+        "tags": [
+          "cafe",
+          "sobremesa"
+        ],
+        "horario": "Manhã: 08h as 11h30 | Tarde: 14h as 18h | Noite: Fechado"
       }
     ],
     "camping": [
@@ -256,48 +368,130 @@
         ]
       }
     ],
-    "gastronomia": [
+    "guias": [
       {
-        "id": "gastronomia_teste_1",
-        "nome": "Restaurante Fogo de Chao",
+        "id": "guias_teste_1",
+        "nome": "Guia Serra Sul",
         "_dyn": true,
-        "descricao": "Pratos tipicos para validar a categoria de gastronomia.",
-        "foto": "restaurantes.jpg",
-        "preco": "Pratos a partir de R$ 48",
-        "tripadvisor": "https://www.tripadvisor.com/",
-        "whatsapp": "+5551999000701",
+        "descricao": "Atendimento para canions e trilhas com carro proprio.",
+        "foto": "guias.jpg",
+        "preco": "Diaria a partir de R$ 250",
+        "veiculo": "4x4",
+        "whatsapp": "+5551999000401",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "subcategoria": "Almoco e jantar",
-        "manha": "Fechado",
-        "tarde": "11h30 as 15h",
-        "noite": "19h as 22h30",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Restaurante Fogo de Chao Cambara do Sul",
+        "manha": "07h as 12h",
+        "tarde": "13h as 19h",
+        "noite": "Plantao por mensagem",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Centro Cambara do Sul",
         "tags": [
-          "almoco",
-          "buffet"
+          "trilhas",
+          "4x4"
         ],
-        "horario": "Manhã: Fechado | Tarde: 11h30 as 15h | Noite: 19h as 22h30"
+        "horario": "Manhã: 07h as 12h | Tarde: 13h as 19h | Noite: Plantao por mensagem"
       },
       {
-        "id": "gastronomia_teste_2",
-        "nome": "Cafe dos Canyons",
+        "id": "guias_teste_2",
+        "nome": "Guia Aparados",
         "_dyn": true,
-        "descricao": "Espaco de teste para cafe colonial e sobremesas.",
-        "foto": "restaurantes.jpg",
-        "preco": "Consumo medio R$ 35",
-        "tripadvisor": "https://www.tripadvisor.com/",
-        "whatsapp": "+5551999000702",
+        "descricao": "Equipe local para passeios privativos e atendimento bilingue.",
+        "foto": "guias.jpg",
+        "preco": "Passeios a partir de R$ 220",
+        "veiculo": "SUV",
+        "whatsapp": "+5551999000402",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "subcategoria": "Cafe",
-        "manha": "08h as 11h30",
-        "tarde": "14h as 18h",
-        "noite": "Fechado",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Cafe dos Canyons Cambara do Sul",
+        "manha": "08h as 12h",
+        "tarde": "13h as 18h",
+        "noite": "Sob agendamento",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Praca Sao Jose Cambara do Sul",
         "tags": [
-          "cafe",
-          "sobremesa"
+          "privativo",
+          "bilingue"
         ],
-        "horario": "Manhã: 08h as 11h30 | Tarde: 14h as 18h | Noite: Fechado"
+        "horario": "Manhã: 08h as 12h | Tarde: 13h as 18h | Noite: Sob agendamento"
+      }
+    ],
+    "transportes": [
+      {
+        "id": "transportes_teste_1",
+        "nome": "Taxi Central Cambara",
+        "_dyn": true,
+        "descricao": "Contato de teste para corridas urbanas, saidas cedo e deslocamentos dentro da cidade.",
+        "foto": "transportes.png",
+        "preco": "Corridas sob consulta",
+        "whatsapp": "+5551999001401",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Taxis",
+        "manha": "06h as 12h",
+        "tarde": "12h as 19h",
+        "noite": "Plantao por telefone",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Praca Sao Jose Cambara do Sul",
+        "tags": [
+          "corridas urbanas",
+          "atendimento rapido"
+        ],
+        "horario": "Manhã: 06h as 12h | Tarde: 12h as 19h | Noite: Plantao por telefone"
+      },
+      {
+        "id": "transportes_teste_2",
+        "nome": "Linha Centro - Fortaleza",
+        "_dyn": true,
+        "descricao": "Linha de teste para validar exibicao de horarios e subcategoria de onibus no app.",
+        "foto": "transportes.png",
+        "preco": "Passagem a partir de R$ 18",
+        "whatsapp": "+5551999001402",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Onibus",
+        "manha": "07h30 e 10h30",
+        "tarde": "14h e 17h30",
+        "noite": "Sem saida",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Rodoviaria Cambara do Sul",
+        "tags": [
+          "linha regular",
+          "fortaleza"
+        ],
+        "horario": "Manhã: 07h30 e 10h30 | Tarde: 14h e 17h30 | Noite: Sem saida"
+      }
+    ],
+    "souvenirs": [
+      {
+        "id": "souvenirs_teste_1",
+        "nome": "Loja Aparados Souvenirs",
+        "_dyn": true,
+        "descricao": "Espaco de teste com lembrancas turisticas, imas, canecas e itens para presente.",
+        "foto": "souvenirs.png",
+        "preco": "Itens a partir de R$ 12",
+        "whatsapp": "+5551999001501",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Lembrancas",
+        "manha": "09h as 12h",
+        "tarde": "13h30 as 18h30",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Centro Cambara do Sul",
+        "tags": [
+          "presentes",
+          "imas"
+        ],
+        "horario": "Manhã: 09h as 12h | Tarde: 13h30 as 18h30 | Noite: Fechado"
+      },
+      {
+        "id": "souvenirs_teste_2",
+        "nome": "Atelie Serra Viva",
+        "_dyn": true,
+        "descricao": "Ponto de teste para artesanato local, pecas decorativas e lembrancas da viagem.",
+        "foto": "souvenirs.png",
+        "preco": "Pecas a partir de R$ 25",
+        "whatsapp": "+5551999001502",
+        "instagram": "https://instagram.com/explore/tags/cambaradosul/",
+        "subcategoria": "Artesanato",
+        "manha": "10h as 12h",
+        "tarde": "14h as 19h",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Avenida Getulio Vargas Cambara do Sul",
+        "tags": [
+          "artesanato",
+          "decoracao"
+        ],
+        "horario": "Manhã: 10h as 12h | Tarde: 14h as 19h | Noite: Fechado"
       }
     ],
     "mercados": [
@@ -376,44 +570,42 @@
         "horario": "Manhã: 08h as 12h | Tarde: 14h as 20h | Noite: Fechado"
       }
     ],
-    "servicos": [
+    "postos": [
       {
-        "id": "servicos_teste_1",
-        "nome": "Lavanderia Cambara",
+        "id": "postos_teste_1",
+        "nome": "Posto Centro",
         "_dyn": true,
-        "descricao": "Servico de apoio para turistas em estada longa.",
-        "foto": "servicos.jpg",
-        "whatsapp": "+5551999001201",
+        "descricao": "Posto de teste com gasolina, etanol e loja.",
+        "foto": "postos.jpg",
+        "whatsapp": "+5551999001101",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "subcategoria": "Utilidades",
-        "manha": "08h as 12h",
-        "tarde": "13h30 as 18h",
-        "noite": "Fechado",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Centro Cambara do Sul",
+        "manha": "06h as 12h",
+        "tarde": "12h as 18h",
+        "noite": "18h as 23h",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Posto Centro Cambara do Sul",
         "tags": [
-          "lavanderia",
-          "entrega"
+          "conveniencia",
+          "lavagem"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
+        "horario": "Manhã: 06h as 12h | Tarde: 12h as 18h | Noite: 18h as 23h"
       },
       {
-        "id": "servicos_teste_2",
-        "nome": "Loja de Conveniencia Centro",
+        "id": "postos_teste_2",
+        "nome": "Posto Rota do Sol",
         "_dyn": true,
-        "descricao": "Cadastro de teste para servicos gerais e compras rapidas.",
-        "foto": "servicos.jpg",
-        "whatsapp": "+5551999001202",
+        "descricao": "Opcao para validar status aberto e links rapidos.",
+        "foto": "postos.jpg",
+        "whatsapp": "+5551999001102",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "subcategoria": "Conveniencia",
-        "manha": "09h as 12h",
-        "tarde": "14h as 19h",
-        "noite": "Fechado",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Avenida Getulio Vargas Cambara do Sul",
+        "manha": "24h",
+        "tarde": "24h",
+        "noite": "24h",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Posto Rota do Sol Cambara do Sul",
         "tags": [
-          "presentes",
-          "acessorios"
+          "diesel",
+          "banheiro"
         ],
-        "horario": "Manhã: 09h as 12h | Tarde: 14h as 19h | Noite: Fechado"
+        "horario": "Manhã: 24h | Tarde: 24h | Noite: 24h"
       }
     ],
     "mecanicas": [
@@ -454,42 +646,44 @@
         "horario": "Manhã: 07h30 as 12h | Tarde: 13h30 as 19h | Noite: Plantao"
       }
     ],
-    "postos": [
+    "servicos": [
       {
-        "id": "postos_teste_1",
-        "nome": "Posto Centro",
+        "id": "servicos_teste_1",
+        "nome": "Lavanderia Cambara",
         "_dyn": true,
-        "descricao": "Posto de teste com gasolina, etanol e loja.",
-        "foto": "postos.jpg",
-        "whatsapp": "+5551999001101",
+        "descricao": "Servico de apoio para turistas em estada longa.",
+        "foto": "servicos.jpg",
+        "whatsapp": "+5551999001201",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "manha": "06h as 12h",
-        "tarde": "12h as 18h",
-        "noite": "18h as 23h",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Posto Centro Cambara do Sul",
+        "subcategoria": "Utilidades",
+        "manha": "08h as 12h",
+        "tarde": "13h30 as 18h",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Centro Cambara do Sul",
         "tags": [
-          "conveniencia",
-          "lavagem"
+          "lavanderia",
+          "entrega"
         ],
-        "horario": "Manhã: 06h as 12h | Tarde: 12h as 18h | Noite: 18h as 23h"
+        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
       },
       {
-        "id": "postos_teste_2",
-        "nome": "Posto Rota do Sol",
+        "id": "servicos_teste_2",
+        "nome": "Loja de Conveniencia Centro",
         "_dyn": true,
-        "descricao": "Opcao para validar status aberto e links rapidos.",
-        "foto": "postos.jpg",
-        "whatsapp": "+5551999001102",
+        "descricao": "Cadastro de teste para servicos gerais e compras rapidas.",
+        "foto": "servicos.jpg",
+        "whatsapp": "+5551999001202",
         "instagram": "https://instagram.com/explore/tags/cambaradosul/",
-        "manha": "24h",
-        "tarde": "24h",
-        "noite": "24h",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Posto Rota do Sol Cambara do Sul",
+        "subcategoria": "Conveniencia",
+        "manha": "09h as 12h",
+        "tarde": "14h as 19h",
+        "noite": "Fechado",
+        "maps": "https://www.google.com/maps/search/?api=1&query=Avenida Getulio Vargas Cambara do Sul",
         "tags": [
-          "diesel",
-          "banheiro"
+          "presentes",
+          "acessorios"
         ],
-        "horario": "Manhã: 24h | Tarde: 24h | Noite: 24h"
+        "horario": "Manhã: 09h as 12h | Tarde: 14h as 19h | Noite: Fechado"
       }
     ],
     "inicio_banners": [],
@@ -591,17 +785,39 @@
     {
       "id": "rs-453-rota-do-sol",
       "nome": "RS-453 Rota do Sol",
-      "tags": []
-    },
-    {
-      "id": "rs-427-aparados",
-      "nome": "RS-427 (Aparados)",
-      "tags": []
+      "tags": [
+        "asfalto",
+        "serra",
+        "mirantes"
+      ],
+      "destinos": [
+        {
+          "cidade": "Sao Francisco de Paula",
+          "distancia_km": 80.0,
+          "tempo_min": 95
+        }
+      ]
     },
     {
       "id": "sc-290-serra-do-faxinal",
       "nome": "SC-290 / Serra do Faxinal",
-      "tags": []
+      "tags": [
+        "asfalto",
+        "serra",
+        "curvas"
+      ],
+      "destinos": [
+        {
+          "cidade": "Praia Grande/SC",
+          "distancia_km": 50.0,
+          "tempo_min": 70
+        },
+        {
+          "cidade": "Jacinto Machado/SC",
+          "distancia_km": 78.0,
+          "tempo_min": 100
+        }
+      ]
     },
     {
       "id": "rs-486-leste",
@@ -618,35 +834,64 @@
       "nome": "RS-020 Leste (BR-101 / Litoral)",
       "tags": [
         "asfalto",
-        "luz",
-        "som"
+        "postos",
+        "trechos urbanos"
+      ],
+      "destinos": [
+        {
+          "cidade": "Osorio",
+          "distancia_km": 126.0,
+          "tempo_min": 140
+        },
+        {
+          "cidade": "Capao da Canoa",
+          "distancia_km": 152.0,
+          "tempo_min": 165
+        },
+        {
+          "cidade": "Torres",
+          "distancia_km": 196.0,
+          "tempo_min": 210
+        }
+      ]
+    },
+    {
+      "id": "rs-427-aparados",
+      "nome": "RS-427 (Aparados)",
+      "tags": [],
+      "destinos": [
+        {
+          "cidade": "chapeco",
+          "distancia_km": 120.0,
+          "tempo_min": 180
+        }
       ]
     }
   ],
   "vias_condicoes": [
     {
-      "id": "condicao_rs-486-leste",
-      "via_id": "rs-486-leste",
-      "via": "RS-486 Leste",
-      "status": "lenta",
-      "observacao": "Mais Atenção",
-      "atualizado_em": "12/03/2026 01:36"
-    },
-    {
-      "id": "condicao_rs-427-aparados",
+      "id": "condicao_rs-453-rota-do-sol",
       "via_id": "rs-453-rota-do-sol",
       "via": "RS-453 Rota do Sol",
-      "status": "bloqueada",
-      "observacao": "bloqueada por motivos maiores",
-      "atualizado_em": "14/03/2026 05:18"
+      "status": "atencao",
+      "observacao": "Neblina em manhas frias e curvas de serra exigem velocidade reduzida.",
+      "atualizado_em": "20/03/2026 08:15"
     },
     {
-      "id": "condicao_rs-453-rota-do-sol",
+      "id": "condicao_sc-290-serra-do-faxinal",
       "via_id": "sc-290-serra-do-faxinal",
       "via": "SC-290 / Serra do Faxinal",
-      "status": "atencao",
-      "observacao": "oiiiie turista",
-      "atualizado_em": "14/03/2026 05:25"
+      "status": "lenta",
+      "observacao": "Fluxo costuma cair no fim da tarde e apos chuva forte, com pontos de serra mais sensiveis.",
+      "atualizado_em": "20/03/2026 08:20"
+    },
+    {
+      "id": "condicao_rs-020-leste-litoral",
+      "via_id": "rs-020-leste-litoral",
+      "via": "RS-020 Leste (BR-101 / Litoral)",
+      "status": "obras",
+      "observacao": "Trechos com manutencao e possiveis desvios curtos, especialmente perto das entradas urbanas.",
+      "atualizado_em": "20/03/2026 08:25"
     }
   ],
   "app": {
@@ -675,11 +920,32 @@
       "id": "referencia_1773288937370",
       "titulo": "Cânions Verdes",
       "url": "https://canionsverdes.urbiapass.com.br/"
+    }
+  ],
+  "contatos_uteis": [
+    {
+      "id": "contato_secretaria_turismo",
+      "titulo": "Secretaria de Turismo",
+      "telefone": "+555432511557",
+      "telefone_ligacao": "+555432511557",
+      "telefone_whatsapp": "+555432511557",
+      "imagem": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/72x72/1F3DE.png"
     },
     {
-      "id": "referencia_1773866167338",
-      "titulo": "Canions do Sul",
-      "url": "https://canionsdosul.org/"
+      "id": "contato_brigada_militar",
+      "titulo": "Brigada Militar",
+      "telefone": "190",
+      "telefone_ligacao": "190",
+      "telefone_whatsapp": "",
+      "imagem": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/72x72/1F693.png"
+    },
+    {
+      "id": "contato_samu",
+      "titulo": "SAMU",
+      "telefone": "192",
+      "telefone_ligacao": "192",
+      "telefone_whatsapp": "",
+      "imagem": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/72x72/1F691.png"
     }
   ]
 }
