@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "categorias": {
     "canions": [
       {
@@ -946,6 +946,14 @@
       "telefone_ligacao": "192",
       "telefone_whatsapp": "",
       "imagem": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/72x72/1F691.png"
+    },
+    {
+      "id": "contato_1774375798130",
+      "titulo": "teste",
+      "telefone": "215421",
+      "telefone_ligacao": "215421",
+      "telefone_whatsapp": "215421",
+      "imagem": "canions.jpg"
     }
   ]
 }
