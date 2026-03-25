@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "categorias": {
     "canions": [
       {
@@ -47,7 +47,6 @@
         "noite": "Fechado",
         "checkin": "14h",
         "checkout": "11h",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Mirante+do+Canion+Fortaleza+Cambara+do+Sul",
         "tags": [
           "paisagem",
           "trilha leve"
