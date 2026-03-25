@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "categorias": {
     "canions": [
       {
@@ -16,14 +16,13 @@
         "noite": "Fechado",
         "checkin": "14h",
         "checkout": "11h",
-        "maps": "https://www.google.com/maps/search/?api=1&query=Canion+Itaimbezinho+Cambara+do+Sul",
         "tags": [
           "mirante",
           "natureza",
           "testedogui"
         ],
-        "lat": -29.171053,
-        "lon": -50.0876854,
+        "lat": -29.061053,
+        "lon": -49.49,
         "roteiro": {
           "duracao_visita_min": 180,
           "valor_entrada": 82.0,
