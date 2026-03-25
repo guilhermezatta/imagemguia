@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "categorias": {
     "canions": [
       {
@@ -775,6 +775,12 @@
           "foto2.jpg",
           "foto3.jpg",
           "foto4.jpg"
+        ]
+      },
+      {
+        "titulo": "teste 11",
+        "fotos": [
+          "foto1.jpg"
         ]
       }
     ]
