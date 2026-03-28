@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "categorias": {
     "canions": [
       {
@@ -25,12 +25,13 @@
         "lon": -49.49,
         "roteiro": {
           "duracao_visita_min": 180,
-          "valor_entrada": 82.0,
-          "tem_estrada_chao": false,
+          "valor_entrada": 82,
+          "tem_estrada_chao": true,
+          "estrada_chao_km": 22,
           "aceita_pet": false,
-          "exige_guia": false
+          "exige_guia": true
         },
-        "horario": "Manhã: 08h as 12h | Tarde: 13h as 17h | Noite: Fechado"
+        "horario": "08h às 12h e 13h às 17h"
       },
       {
         "id": "canions_teste_2",
@@ -54,13 +55,13 @@
         "lon": -49.9570611,
         "roteiro": {
           "duracao_visita_min": 210,
-          "valor_entrada": 70.0,
+          "valor_entrada": 70,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 12.0,
+          "estrada_chao_km": 12,
           "aceita_pet": false,
           "exige_guia": false
         },
-        "horario": "Manhã: 08h as 11h30 | Tarde: 13h as 16h30 | Noite: Fechado"
+        "horario": "08h às 11h30m e 13h às 16h30m"
       }
     ],
     "cachoeiras": [
@@ -85,13 +86,13 @@
         "lon": -50.1951,
         "roteiro": {
           "duracao_visita_min": 150,
-          "valor_entrada": 25.0,
+          "valor_entrada": 25,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 7.0,
+          "estrada_chao_km": 7,
           "aceita_pet": true,
           "exige_guia": false
         },
-        "horario": "Manhã: 08h as 12h | Tarde: 13h as 18h | Noite: Fechado"
+        "horario": "08h às 12h e 13h às 18h"
       },
       {
         "id": "cachoeiras_teste_2",
@@ -114,13 +115,13 @@
         "lon": -50.1387,
         "roteiro": {
           "duracao_visita_min": 120,
-          "valor_entrada": 20.0,
+          "valor_entrada": 20,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 4.0,
+          "estrada_chao_km": 4,
           "aceita_pet": true,
           "exige_guia": false
         },
-        "horario": "Manhã: 09h as 12h | Tarde: 13h as 17h | Noite: Fechado"
+        "horario": "09h às 12h e 13h às 17h"
       }
     ],
     "trilhas": [
@@ -145,12 +146,12 @@
         "lon": -50.0924,
         "roteiro": {
           "duracao_visita_min": 360,
-          "valor_entrada": 120.0,
+          "valor_entrada": 120,
           "tem_estrada_chao": false,
           "aceita_pet": false,
           "exige_guia": true
         },
-        "horario": "Manhã: 07h as 11h | Tarde: 13h as 16h | Noite: Fechado"
+        "horario": "07h às 11h e 13h às 16h"
       },
       {
         "id": "trilhas_teste_2",
@@ -173,12 +174,12 @@
         "lon": -50.1475,
         "roteiro": {
           "duracao_visita_min": 120,
-          "valor_entrada": 35.0,
+          "valor_entrada": 35,
           "tem_estrada_chao": false,
           "aceita_pet": true,
           "exige_guia": false
         },
-        "horario": "Manhã: 08h as 12h | Tarde: 13h as 17h | Noite: Fechado"
+        "horario": "08h às 12h e 13h às 17h"
       }
     ],
     "outros_passeios": [
@@ -205,12 +206,12 @@
         "lon": -50.1471,
         "roteiro": {
           "duracao_visita_min": 60,
-          "valor_entrada": 0.0,
+          "valor_entrada": 0,
           "tem_estrada_chao": false,
           "aceita_pet": false,
           "exige_guia": false
         },
-        "horario": "Manhã: 09h as 12h | Tarde: 13h30 as 17h30 | Noite: Fechado"
+        "horario": "09h às 12h e 13h30m às 17h30m"
       },
       {
         "id": "outros_passeios_teste_2",
@@ -235,13 +236,13 @@
         "lon": -50.169,
         "roteiro": {
           "duracao_visita_min": 45,
-          "valor_entrada": 12.0,
+          "valor_entrada": 12,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 2.0,
+          "estrada_chao_km": 2,
           "aceita_pet": true,
           "exige_guia": false
         },
-        "horario": "Manhã: 08h30 as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
+        "horario": "08h30m às 12h e 13h30m às 18h"
       }
     ],
     "gastronomia": [
@@ -264,7 +265,7 @@
           "almoco",
           "buffet"
         ],
-        "horario": "Manhã: Fechado | Tarde: 11h30 as 15h | Noite: 19h as 22h30"
+        "horario": "11h30m às 15h e 19h às 22h30m"
       },
       {
         "id": "gastronomia_teste_2",
@@ -285,7 +286,7 @@
           "cafe",
           "sobremesa"
         ],
-        "horario": "Manhã: 08h as 11h30 | Tarde: 14h as 18h | Noite: Fechado"
+        "horario": "08h às 11h30m e 14h às 18h"
       }
     ],
     "camping": [
@@ -385,7 +386,7 @@
           "trilhas",
           "4x4"
         ],
-        "horario": "Manhã: 07h as 12h | Tarde: 13h as 19h | Noite: Plantao por mensagem"
+        "horario": "07h às 12h e 13h às 19h"
       },
       {
         "id": "guias_teste_2",
@@ -405,7 +406,7 @@
           "privativo",
           "bilingue"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h as 18h | Noite: Sob agendamento"
+        "horario": "08h às 12h e 13h às 18h"
       }
     ],
     "transportes": [
@@ -427,7 +428,7 @@
           "corridas urbanas",
           "atendimento rapido"
         ],
-        "horario": "Manhã: 06h as 12h | Tarde: 12h as 19h | Noite: Plantao por telefone"
+        "horario": "06h às 12h e 12h às 19h"
       },
       {
         "id": "transportes_teste_2",
@@ -447,7 +448,7 @@
           "linha regular",
           "fortaleza"
         ],
-        "horario": "Manhã: 07h30 e 10h30 | Tarde: 14h e 17h30 | Noite: Sem saida"
+        "horario": "07h30m às 10h30m e 14h às 17h30m"
       }
     ],
     "souvenirs": [
@@ -469,7 +470,7 @@
           "presentes",
           "imas"
         ],
-        "horario": "Manhã: 09h as 12h | Tarde: 13h30 as 18h30 | Noite: Fechado"
+        "horario": "09h às 12h e 13h30m às 18h30m"
       },
       {
         "id": "souvenirs_teste_2",
@@ -489,7 +490,7 @@
           "artesanato",
           "decoracao"
         ],
-        "horario": "Manhã: 10h as 12h | Tarde: 14h as 19h | Noite: Fechado"
+        "horario": "10h às 12h e 14h às 19h"
       }
     ],
     "mercados": [
@@ -509,7 +510,7 @@
           "bebidas",
           "mercearia"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 20h | Noite: Fechado"
+        "horario": "08h às 12h e 13h30m às 20h"
       },
       {
         "id": "mercados_teste_2",
@@ -527,7 +528,7 @@
           "conveniencia",
           "produtos locais"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 14h as 19h | Noite: Fechado"
+        "horario": "08h às 12h e 14h às 19h"
       }
     ],
     "farmacias": [
@@ -547,7 +548,7 @@
           "medicamentos",
           "higiene"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 19h | Noite: Plantao por telefone"
+        "horario": "08h às 12h e 13h30m às 19h"
       },
       {
         "id": "farmacias_teste_2",
@@ -565,7 +566,7 @@
           "perfumaria",
           "entrega local"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 14h as 20h | Noite: Fechado"
+        "horario": "08h às 12h e 14h às 20h"
       }
     ],
     "postos": [
@@ -585,7 +586,7 @@
           "conveniencia",
           "lavagem"
         ],
-        "horario": "Manhã: 06h as 12h | Tarde: 12h as 18h | Noite: 18h as 23h"
+        "horario": "06h às 12h e 12h às 18h e 18h às 23h"
       },
       {
         "id": "postos_teste_2",
@@ -603,7 +604,7 @@
           "diesel",
           "banheiro"
         ],
-        "horario": "Manhã: 24h | Tarde: 24h | Noite: 24h"
+        "horario": "24h"
       }
     ],
     "mecanicas": [
@@ -623,7 +624,7 @@
           "suspensao",
           "oleo"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
+        "horario": "08h às 12h e 13h30m às 18h"
       },
       {
         "id": "mecanicas_teste_2",
@@ -641,7 +642,7 @@
           "borracharia",
           "socorro"
         ],
-        "horario": "Manhã: 07h30 as 12h | Tarde: 13h30 as 19h | Noite: Plantao"
+        "horario": "07h30m às 12h e 13h30m às 19h"
       }
     ],
     "servicos": [
@@ -662,7 +663,7 @@
           "lavanderia",
           "entrega"
         ],
-        "horario": "Manhã: 08h as 12h | Tarde: 13h30 as 18h | Noite: Fechado"
+        "horario": "08h às 12h e 13h30m às 18h"
       },
       {
         "id": "servicos_teste_2",
@@ -681,7 +682,7 @@
           "presentes",
           "acessorios"
         ],
-        "horario": "Manhã: 09h as 12h | Tarde: 14h as 19h | Noite: Fechado"
+        "horario": "09h às 12h e 14h às 19h"
       }
     ],
     "inicio_banners": [],
@@ -797,7 +798,7 @@
       "destinos": [
         {
           "cidade": "Sao Francisco de Paula",
-          "distancia_km": 80.0,
+          "distancia_km": 80,
           "tempo_min": 95
         }
       ]
@@ -813,12 +814,12 @@
       "destinos": [
         {
           "cidade": "Praia Grande/SC",
-          "distancia_km": 50.0,
+          "distancia_km": 50,
           "tempo_min": 70
         },
         {
           "cidade": "Jacinto Machado/SC",
-          "distancia_km": 78.0,
+          "distancia_km": 78,
           "tempo_min": 100
         }
       ]
@@ -844,17 +845,17 @@
       "destinos": [
         {
           "cidade": "Osorio",
-          "distancia_km": 126.0,
+          "distancia_km": 126,
           "tempo_min": 140
         },
         {
           "cidade": "Capao da Canoa",
-          "distancia_km": 152.0,
+          "distancia_km": 152,
           "tempo_min": 165
         },
         {
           "cidade": "Torres",
-          "distancia_km": 196.0,
+          "distancia_km": 196,
           "tempo_min": 210
         }
       ]
@@ -866,7 +867,7 @@
       "destinos": [
         {
           "cidade": "chapeco",
-          "distancia_km": 120.0,
+          "distancia_km": 120,
           "tempo_min": 180
         }
       ]
