@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "categorias": {
     "canions": [
       {
@@ -25,9 +25,9 @@
         "lon": -50.0837542,
         "roteiro": {
           "duracao_visita_min": 180,
-          "valor_entrada": 82,
+          "valor_entrada": 82.0,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 22,
+          "estrada_chao_km": 22.0,
           "aceita_pet": false,
           "exige_guia": true
         },
@@ -55,9 +55,9 @@
         "lon": -49.9570611,
         "roteiro": {
           "duracao_visita_min": 210,
-          "valor_entrada": 70,
+          "valor_entrada": 70.0,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 12,
+          "estrada_chao_km": 12.0,
           "aceita_pet": false,
           "exige_guia": false
         },
@@ -86,9 +86,9 @@
         "lon": -50.1951,
         "roteiro": {
           "duracao_visita_min": 150,
-          "valor_entrada": 25,
+          "valor_entrada": 25.0,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 7,
+          "estrada_chao_km": 7.0,
           "aceita_pet": true,
           "exige_guia": false
         },
@@ -115,9 +115,9 @@
         "lon": -50.1387,
         "roteiro": {
           "duracao_visita_min": 120,
-          "valor_entrada": 20,
+          "valor_entrada": 20.0,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 4,
+          "estrada_chao_km": 4.0,
           "aceita_pet": true,
           "exige_guia": false
         },
@@ -146,7 +146,7 @@
         "lon": -50.0924,
         "roteiro": {
           "duracao_visita_min": 360,
-          "valor_entrada": 120,
+          "valor_entrada": 120.0,
           "tem_estrada_chao": false,
           "aceita_pet": false,
           "exige_guia": true
@@ -174,7 +174,7 @@
         "lon": -50.1475,
         "roteiro": {
           "duracao_visita_min": 120,
-          "valor_entrada": 35,
+          "valor_entrada": 35.0,
           "tem_estrada_chao": false,
           "aceita_pet": true,
           "exige_guia": false
@@ -206,7 +206,7 @@
         "lon": -50.1471,
         "roteiro": {
           "duracao_visita_min": 60,
-          "valor_entrada": 0,
+          "valor_entrada": 0.0,
           "tem_estrada_chao": false,
           "aceita_pet": false,
           "exige_guia": false
@@ -236,9 +236,9 @@
         "lon": -50.169,
         "roteiro": {
           "duracao_visita_min": 45,
-          "valor_entrada": 12,
+          "valor_entrada": 12.0,
           "tem_estrada_chao": true,
-          "estrada_chao_km": 2,
+          "estrada_chao_km": 2.0,
           "aceita_pet": true,
           "exige_guia": false
         },
@@ -798,7 +798,7 @@
       "destinos": [
         {
           "cidade": "Sao Francisco de Paula",
-          "distancia_km": 80,
+          "distancia_km": 80.0,
           "tempo_min": 95
         }
       ]
@@ -814,12 +814,12 @@
       "destinos": [
         {
           "cidade": "Praia Grande/SC",
-          "distancia_km": 50,
+          "distancia_km": 50.0,
           "tempo_min": 70
         },
         {
           "cidade": "Jacinto Machado/SC",
-          "distancia_km": 78,
+          "distancia_km": 78.0,
           "tempo_min": 100
         }
       ]
@@ -845,17 +845,17 @@
       "destinos": [
         {
           "cidade": "Osorio",
-          "distancia_km": 126,
+          "distancia_km": 126.0,
           "tempo_min": 140
         },
         {
           "cidade": "Capao da Canoa",
-          "distancia_km": 152,
+          "distancia_km": 152.0,
           "tempo_min": 165
         },
         {
           "cidade": "Torres",
-          "distancia_km": 196,
+          "distancia_km": 196.0,
           "tempo_min": 210
         }
       ]
@@ -867,7 +867,7 @@
       "destinos": [
         {
           "cidade": "chapeco",
-          "distancia_km": 120,
+          "distancia_km": 120.0,
           "tempo_min": 180
         }
       ]
@@ -951,14 +951,6 @@
       "telefone_ligacao": "192",
       "telefone_whatsapp": "",
       "imagem": "https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/72x72/1F691.png"
-    },
-    {
-      "id": "contato_1774375798130",
-      "titulo": "teste",
-      "telefone": "215421",
-      "telefone_ligacao": "215421",
-      "telefone_whatsapp": "215421",
-      "imagem": "canions.jpg"
     }
   ]
 }
