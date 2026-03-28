@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "categorias": {
     "canions": [
       {
@@ -873,16 +873,7 @@
       ]
     }
   ],
-  "vias_condicoes": [
-    {
-      "id": "condicao_rs-020-leste-litoral",
-      "via_id": "rs-020-leste-litoral",
-      "via": "RS-020 Leste (BR-101 / Litoral)",
-      "status": "obras",
-      "observacao": "Trechos com manutencao e possiveis desvios curtos, especialmente perto das entradas urbanas.",
-      "atualizado_em": "20/03/2026 08:25"
-    }
-  ],
+  "vias_condicoes": [],
   "app": {
     "status": "ativo",
     "mensagem": "Sistema em manutencao. Tente novamente mais tarde."
