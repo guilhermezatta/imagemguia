@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 32,
   "categorias": {
     "canions": [
       {
@@ -881,14 +881,6 @@
       "status": "atencao",
       "observacao": "Neblina em manhas frias e curvas de serra exigem velocidade reduzida.",
       "atualizado_em": "20/03/2026 08:15"
-    },
-    {
-      "id": "condicao_sc-290-serra-do-faxinal",
-      "via_id": "sc-290-serra-do-faxinal",
-      "via": "SC-290 / Serra do Faxinal",
-      "status": "lenta",
-      "observacao": "Fluxo costuma cair no fim da tarde e apos chuva forte, com pontos de serra mais sensiveis.",
-      "atualizado_em": "20/03/2026 08:20"
     },
     {
       "id": "condicao_rs-020-leste-litoral",
