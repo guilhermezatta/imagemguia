@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "categorias": {
     "canions": [
       {
@@ -21,8 +21,8 @@
           "natureza",
           "testedogui"
         ],
-        "lat": -29.183962831422967,
-        "lon": -50.08375321861298,
+        "lat": -29.1839,
+        "lon": -50.0837,
         "roteiro": {
           "duracao_visita_min": 180,
           "valor_entrada": 82,
