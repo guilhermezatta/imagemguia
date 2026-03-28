@@ -1,5 +1,5 @@
 {
-  "version": 32,
+  "version": 33,
   "categorias": {
     "canions": [
       {
@@ -874,14 +874,6 @@
     }
   ],
   "vias_condicoes": [
-    {
-      "id": "condicao_rs-453-rota-do-sol",
-      "via_id": "rs-453-rota-do-sol",
-      "via": "RS-453 Rota do Sol",
-      "status": "atencao",
-      "observacao": "Neblina em manhas frias e curvas de serra exigem velocidade reduzida.",
-      "atualizado_em": "20/03/2026 08:15"
-    },
     {
       "id": "condicao_rs-020-leste-litoral",
       "via_id": "rs-020-leste-litoral",
